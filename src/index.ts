@@ -2,16 +2,16 @@ type StoreStateObject = {
   [key: string]: any;
 };
 
-let STORE_KEY: string = 'redux-store';
+type Reducer = (state: any, action: any) => any;
 
-export const setStoreKey = (key: string): any => (STORE_KEY = key);
+let STORE_KEY: string = 'redux-storage';
 
 const storageItem = localStorage.getItem(STORE_KEY);
 
 let store: StoreStateObject = storageItem ? JSON.parse(storageItem) : {};
 
 const storage =
-  (reducer: any, name: string = 'reducer'): any =>
+  (reducer: Reducer, name: string = 'reducer'): any =>
   (state: any, action: any) => {
     const next = reducer(state || store[name], action);
 
