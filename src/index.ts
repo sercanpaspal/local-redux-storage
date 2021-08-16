@@ -4,7 +4,7 @@ type StoreStateObject = {
 
 type Reducer = (state: any, action: any) => any;
 
-let STORE_KEY: string = 'redux-storage';
+const STORE_KEY: string = 'redux-storage';
 
 const storageItem = localStorage.getItem(STORE_KEY);
 
