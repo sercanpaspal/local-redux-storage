@@ -1,6 +1,6 @@
 {
   "name": "local-redux-storage",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Simple, small and dependency free redux state to local storage on reduce layer.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
