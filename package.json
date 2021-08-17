@@ -20,6 +20,10 @@
   ],
   "author": "Sercan Paspal",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sercanpaspal/local-redux-storage.git"
+  },
   "devDependencies": {
     "prettier": "^2.3.2",
     "tslint": "^6.1.3",
