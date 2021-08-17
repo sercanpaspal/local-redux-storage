@@ -39,6 +39,10 @@ const store = createStore(storage(rootReducer))
 
 ```
 
+# Example
+
+Example project in [example](./example) folder. Also live on [https://local-redux-storage-example.netlify.app/](https://local-redux-storage-example.netlify.app/).
+
 # License
 
 ISC
